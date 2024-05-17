@@ -1,0 +1,169 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Barlow", sans-serif; */
+    font-family: "Fraunces", serif;
+}
+
+
+/* - Soft red: hsl(7, 99%, 70%)
+- Yellow: hsl(51, 100%, 49%)
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
+- Dark blue (photography text): hsl(198, 62%, 26%)
+- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+
+### Neutral
+
+- Very dark desaturated blue: hsl(212, 27%, 19%)
+- Very dark grayish blue: hsl(213, 9%, 39%)
+- Dark grayish blue: hsl(232, 10%, 55%)
+- Grayish blue: hsl(210, 4%, 67%)
+- White: hsl(0, 0%, 100%) */
+
+
+
+.hero {
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: 100%;
+    min-height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 27px;
+    position: relative;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link-container .btn {
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 80px;
+}
+
+.hero-container h1 {
+
+    color: white;
+    font-size: 50px;
+    letter-spacing: 5px;
+    /* font-family: "Barlow", sans-serif; */
+
+
+}
+
+
+
+/* transform section */
+
+.double-section {
+    display: flex;
+
+}
+
+.double-section-content {
+
+    width: 0%;
+    flex-grow: 1;
+
+
+
+
+}
+
+.double-section .inner-container {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.double-section-content h2 {
+    font-size: 40px;
+
+
+}
+
+.double-section-img-container {
+
+    width: 0%;
+    flex-grow: 1;
+
+
+}
+
+
+.double-section-img-container img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.image-section{
+    display: flex;
+}
+
+.image-section-box{
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.image-section-box p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    padding-bottom: 100px;
+}
+
+.image-graphic-design{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+
+.image-photography{
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(38, 0, 255);
+}

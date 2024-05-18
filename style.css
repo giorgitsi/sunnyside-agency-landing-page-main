@@ -167,3 +167,52 @@ body {
     background-size: cover;
     background-color: rgb(38, 0, 255);
 }
+
+
+/* section 4 start */
+
+.section-client{
+    padding: 150px 70px;
+}
+
+.section-client h2{
+    letter-spacing: 7px;
+    opacity: 0.4;
+    margin-bottom:70px ;
+    text-align: center;
+}
+
+.avatars-container{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+    padding: 90px;
+}
+
+.avatar-card img{
+
+    border-radius: 100%;
+    width: 75px;
+    margin-bottom: 55px;
+
+}
+
+.avatar-text{
+    opacity: 0.6;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 70px ;
+}
+
+.profession{
+    font-family: "Barlow", sans-serif;
+    
+}
